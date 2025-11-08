@@ -3,37 +3,9 @@
 > vite
 
 
-  VITE v5.4.20  ready in 1095 ms
+  VITE v5.4.20  ready in 246 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.22.21:3000/
-1:10:04 PM [vite] Pre-transform error: Transform failed with 1 error:
+1:32:19 PM [vite] Pre-transform error: Transform failed with 1 error:
 /home/workspace/src/components/LanguageInput.jsx:233:76: ERROR: Unexpected "]"
-1:10:05 PM [vite] ✨ new dependencies optimized: lucide-react
-1:10:05 PM [vite] ✨ optimized dependencies changed. reloading
-1:10:07 PM [vite] Pre-transform error: Transform failed with 1 error:
-/home/workspace/src/components/LanguageInput.jsx:233:76: ERROR: Unexpected "]"
-The file does not exist at "/home/workspace/node_modules/.vite/deps/chunk-I4MZPW7S.js?v=35394813" which is in the optimize deps directory. The dependency might be incompatible with the dep optimizer. Try adding it to `optimizeDeps.exclude`.
-1:10:08 PM [vite] Internal server error: Transform failed with 1 error:
-/home/workspace/src/components/LanguageInput.jsx:233:76: ERROR: Unexpected "]"
-  Plugin: vite:esbuild
-  File: /home/workspace/src/components/LanguageInput.jsx:233:76
-  
-  Unexpected "]"
-  231|            </div>
-  232|            <textarea value={autoText} onChange={(e)=>setAutoText(e.target.value)} rows={10} className="w-full rounded border px-3 py-2 font-mono text-sm"/>
-  233|            <p className="text-xs text-gray-600">Structure: {{ states: string[], start: string, accepts: string[], transitions: Record&lt;state, Record&lt;symbol, string[]&gt;&gt; }}</p>
-     |                                                                              ^
-  234|          </div>
-  235|        )}
-  
-      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
-      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
-      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
-      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
-      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
-      at Socket.emit (node:events:508:28)
-      at addChunk (node:internal/streams/readable:559:12)
-      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
-      at Readable.push (node:internal/streams/readable:390:5)
-      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
